@@ -8,7 +8,7 @@
 /assets/model/
 
 # pycache
-*/pycache/
+*/__pycache__/
 
 # IDE
 /.vscode/
