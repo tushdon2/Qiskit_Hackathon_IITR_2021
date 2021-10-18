@@ -1,2 +1,15 @@
 # Virtual Environment
 /venv/
+
+# CNN dataset
+/assets/data/
+
+# pycache
+*/pycache/
+
+# IDE
+/.vscode
+/.idea
+
+# Jupyter Notebook
+*/.ipynb_checkpoints
