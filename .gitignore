@@ -4,12 +4,15 @@
 # CNN dataset
 /assets/data/
 
+# CNN saved models
+/assets/model/
+
 # pycache
 */pycache/
 
 # IDE
-/.vscode
-/.idea
+/.vscode/
+/.idea/
 
 # Jupyter Notebook
-*/.ipynb_checkpoints
+*/.ipynb_checkpoints/
