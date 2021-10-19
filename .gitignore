@@ -4,6 +4,9 @@
 # CNN dataset
 /assets/data/
 
+# captured images 
+/assets/captures/
+
 # CNN saved models
 /assets/model/
 

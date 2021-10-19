@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Scheherazade;
+    
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+*/    /*background: #83a4d4; 
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);   
+    background: linear-gradient(to right, #b6fbff, #83a4d4); 
+*/
+    color: #fff;
+    background: url('background.jpg');
+    background-size: cover;
+
+}
+
+h1{
+    font-weight: 800;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+
+.container{
+    display: flex; !important
+    flex-direction: column;
+}
+ .section{
+    width: 500px;
+    margin: 20px 50px;
+}
+
+.section {
+    box-shadow: 0 0 15px 5px rgba(255,255,255,0.2);
+}
+
+.section .info{
+    background: rgb(28, 95, 120);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: white;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : rgba(139, 207, 232, 0.5);
+    /*background: white;*/
+    height: 350px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : rgba(139, 207, 232, 0.5);
+    /*background: white;*/
+    height: 350px;
+}
+.show i{
+    font-size: 100px;
+    color: orange;
+}
+
+h2{
+    font-weight: bold;
+    padding: 5px;
+    font-size: 25px;
+}
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+}
+/* .selection button{
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background : rgb(41, 40, 40);
+    font-size: 33px;
+    color: orange;
+} */
+#my_camera{
+        width: 450px;
+        height: 300px;
+        border: 1px solid black;
+    }
+
+.btn {
+  transition-duration: 0.4s;
+  padding: 10px;
+  font-size: 25px;
+  margin: 5px;
+  border: 2px solid #4cafa7;
+}
+
+.btn:hover {
+  background-color: #4cafa7; 
+  color: white;
+}
+.gameover{
+    text-align: center;
+    /* background-color: #4cafa7; */
+    width: 50vw;
+    font-size: 30px;
+    color: red;
+
+}
+#butt{
+   align-self: center;
+   font-size: 30px;
+   font-weight: 100;
+}
+#butt :hover{
+    background-color: #4cafa7; 
+    color: white;
+}
