@@ -25,10 +25,10 @@ human (who will play by using hand gestures).</p>
   * Analysing human psychology based strategy against complete randomness.
 
 ## What we achieved in this project
-  * Created a Quantum random generator using noise only over QuasmSimulator in Qiskit.
+  * Created a Quantum random generator using noise only over QasmSimulator in Qiskit.
   * Linked Qrng with web game .
   * Train a classical machine learning model using python to identify different hand gestures for rock, paper, scissors, lizard and spock.
-  * Developed web interface for game using html, css ,javascript.
+  * Developed web interface for game using html, css and javascript.
 
 
 ## Instructions
