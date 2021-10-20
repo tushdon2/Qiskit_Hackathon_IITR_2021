@@ -38,6 +38,7 @@ $ git clone https://github.com/tushdon2/Qiskit_Hackathon_IITR_2021.git
 ```
 2. Change your working directory to the cloned repo and create a Virtual Environment. For example, a virtual environment named `venv` can be created using venv by the command: 
 ```
+$ cd Qiskit_Hackathon_IITR_2021
 $ python -m venv venv
 ```
 3. Activate the environment:
@@ -68,6 +69,9 @@ assets
 ```
 7. Run the [model_train_and_validate.ipynb](./src/model_train_and_validate.ipynb) and [model_test.ipynb](./src/model_test.ipynb) Jupyter Notebooks to train, validate and test the generated CNN model (will be stored in **_model_** directory in [**_assets_**](./assets) folder).
 8. Run the [main.py](./src/main.py) file to play the game.
+```
+$ python3 ./src/main.py
+```
 
 ### **Note :** 
 * We have used [WebcamJS](https://github.com/jhuckaby/webcamjs) library to capture images. It's already bundled in the [**webcamjs**](./src/web/webcamjs) directory.
@@ -81,7 +85,7 @@ assets
   * Click on “Take Snapshot”
   * Continue playing until either of you or computer scores 5 points
   * Whoever scores 5 points first, wins the game 
-  * Start new game for reloading the game .
+  * For starting a new game, reload the game.
  
 ## Rules of the game
    * Scissors decapitates Lizard 
