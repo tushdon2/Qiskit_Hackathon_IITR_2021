@@ -29,7 +29,7 @@ human (who will play by using hand gestures).</p>
   * Linked Qrng with web game .
   * Train a classical machine learning model using python to identify different hand gestures for rock, paper, scissors, lizard and spock.
   * Developed web interface for game using html, css and javascript.
-  * For further info: (Project Presentation)[https://github.com/tushdon2/Qiskit_Hackathon_IITR_2021/blob/master/assets/docs/Qiskit%20Fall%20Fest%20Hackathon%20IITR%202021.pdf]
+  * For further info: [Project Presentation](https://github.com/tushdon2/Qiskit_Hackathon_IITR_2021/blob/master/assets/docs/Qiskit%20Fall%20Fest%20Hackathon%20IITR%202021.pdf)
 
 
 ## Instructions
