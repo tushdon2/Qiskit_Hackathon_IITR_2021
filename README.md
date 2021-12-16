@@ -25,10 +25,11 @@ human (who will play by using hand gestures).</p>
   * Analysing human psychology based strategy against complete randomness.
 
 ## What we achieved in this project
-  * Created a Quantum random generator using noise only over QasmSimulator in Qiskit.
+  * Created a Quantum random generator using noise only (over QasmSimulator in Qiskit).
   * Linked Qrng with web game .
   * Train a classical machine learning model using python to identify different hand gestures for rock, paper, scissors, lizard and spock.
   * Developed web interface for game using html, css and javascript.
+  * For further info: (Project Presentation)[https://github.com/tushdon2/Qiskit_Hackathon_IITR_2021/blob/master/assets/docs/Qiskit%20Fall%20Fest%20Hackathon%20IITR%202021.pdf]
 
 
 ## Instructions
@@ -80,10 +81,10 @@ $ python3 ./src/main.py
 * Install [**Downloads Overwrite Already Existing Files**](https://chrome.google.com/webstore/detail/downloads-overwrite-alrea/lddjgfpjnifpeondafidennlcfagekbp) Chrome extension.
 
 ## How to use GUI?
-  * Click on configure to configure the webcam
+  * Click on "Configure" to configure the webcam
   * Now make the hand gesture of whichever symbol you want to choose (i.e rock, paper, scissor, lizard, spock)
   * Click on “Take Snapshot”
-  * Continue playing until either of you or computer scores 5 points
+  * Continue playing until either you or computer scores 5 points
   * Whoever scores 5 points first, wins the game 
   * For starting a new game, reload the game.
  
